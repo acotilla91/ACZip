@@ -8,8 +8,8 @@
 
 #import "ViewController.h"
 
-#import "ACZip/ACZip.h"
-#import "ACZip/ACZippedFileInfo.h"
+#import "ACZip.h"
+#import "ACZippedFileInfo.h"
 
 @interface ViewController ()
 

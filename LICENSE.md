@@ -1,4 +1,8 @@
-Copyright (c) 2011-2015 GitHub Inc.
+Created by Alejandro D. Cotilla on 7/15/13.
+
+Copyright (c) 2013 Spissa Software Solutions, http://www.spissa.com
+
+MIT LICENSE
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the

@@ -217,7 +217,7 @@ _zip_ef_new(zip_uint16_t id, zip_uint16_t size, const zip_uint8_t *data, zip_fla
 struct zip_extra_field *
 _zip_ef_parse(const zip_uint8_t *data, zip_uint16_t len, zip_flags_t flags, struct zip_error *error)
 {
-    struct zip_extra_field *ef, *ef2, *ef_head;
+    struct zip_extra_field *ef = NULL, *ef2, *ef_head;
     const zip_uint8_t *p;
     zip_uint16_t fid, flen;
 
