@@ -1,4 +1,4 @@
-#ACZip
+# ACZip
 [![License](http://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat
 )](http://mit-license.org)
 
@@ -6,13 +6,13 @@ ACZip is a lightweight Objective-C wrapper for some libzip functions. It's stron
 
 Last tested on Xcode 7.0.1 & iOS 9.0.2
 
-##Installation and Setup
+## Installation and Setup
 
-####Manual
+#### Manual
 1. Add ACZip folder to your project.
 2. In the project editor, select your target, click Build Phases and then under Link Binary With Libraries add the libz library to your target.
 
-##Usage
+## Usage
 ```objective-c
 //
 // Create zip file object
@@ -62,5 +62,5 @@ NSData *newReplacementImgData = [NSData dataWithContentsOfFile:newReplacementImg
 [zipFile closeAndSave:nil];
 ```
 
-###Licensing
+### Licensing
 This project is licensed under the terms of the MIT license.
